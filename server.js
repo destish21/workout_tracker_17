@@ -16,4 +16,11 @@ const MONGODB_URL = process.env.MONGODB_URL || 'mongodb://localhost/workout';
  mongoose.connect(MONGODB_URL, {
      useNewUrlParser: true,
      useFindAndModify: false
+ });
+
+ require('./routes/appiRoutes')(app);
+ require('./routes/htmlRoutes')(app);
+
+ app.listen(PORT, ()=>{
+     console.log(`APP listen on port ${PORT}`);
  })
