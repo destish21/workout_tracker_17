@@ -23,50 +23,40 @@
 
    # Description
 
-   * This application is developed to create a tutorial for the code.
-   * This application uses an express backend and save and retrieve node data from Sequelize a mysql. 
-   * In Develop folder I got starter code for a project and I started to under stand each  folders and  files
-   * I explained or I wrote about the functions of each folders and files on Google Doc a tutorial explaining. 
+   * This application is developed to view create and track daily workouts.
+   * This application uses an express backend and fron end to save and retrieve node data from dbworkout. 
+   * yuo can be able to log multiple exercises in a workout on a given day.
+   * you can also be able to track the name, type,   weight, sets, reps, and duration of exercise. 
+   * If the exercise is a cardio exercise, you can be able to track the distance traveled.
    * I included in package.js as dependence
-
-   * npm init
+   * I created models and routes to connect with back end codes.
 
    * That is a given dependence
 
-   * npm install express
-
-   * npm install express-handlebars
-
-   * npm install mysql
-
-   * npm handlebars
-
-   * npm method-override
-
-   * body-parser
-
-   * users can quickly and easily input the a starting point for a new project they'd like to a walk-through of the codebase.
-
-   * When you joining a new team  it displays the team members. 
+   * npm install 
 
    * Acceptance Criteria.
-     a Node.js application using Sequelize and Passport
-     WHEN I follow the walkthrough
-     THEN I understand the codebase 
 
-   * My app stores every users in a database, whether login or logout.
+   * users can quickly and easily loads the page, you will be get the option to create a new workout or continue with the last workout.
+
+   * you can Add exercises to the most recent workout plan. 
+
+   * you can search the combined weight of multiple exercises from the past seven workouts on the `stats` page
+
+   * View the total duration of each workout from the past seven workouts on the `stats` page.
+.
 
    #  Runing a command-line application 
 
-   * You can Add to User email password.
+   * You can Add or see the exercises.
    
-   * You can View seen the user's email and password on database.
+   * You can  see the user's type of exercise, duration on database.
  
-   * You can View the stored database in a database whether create table or not.
+   * You can View the stored database in a database interms of line chart, bar chart, and pie chart.
 
-   * The app runs as a `nodemon server.js or node server.js` to gather information about each members. 
+   * The app runs as a `nodemon server.js or node server.js` to gather information about each exercises. 
 
-   * My Reverse Engineering Code  node express handlebars application includes all necessary code that is readable, reliable, and maintainable Oftentimes, node_modules,  main Readme, Google Doc and video expaining.
+   * My workout_tracker_17 mongodb, mongoose, and morgan that is readable, reliable, and maintainable Oftentimes, node_modules,  main Readme, Screenshots.
 
    * I put my LinkedIn profile, my github URL repository, heroku url and email address working activly.
 
@@ -76,12 +66,12 @@
 
    * [destish21/workout_tracker_17](https://github.com/destish21/workout_tracker_17)
 
-   * you can run by install npm i to include node_module, bcryptjs,express,express-session,  mysql2, passport, passport-local, and sequelize .
+   * you can run by install npm i to include node_module, express, morgan, mongoose, dev, and mongoDB_URL and localhost.
 
-   * you can run by node `nodemon server.js or by node server.js` to Reverse Engineering Code.
+   * you can run by node `nodemon server.js or by node server.js` workout_tracker_17.
 
-   # screenshot Images
-   * ![workout_tracker_17](./Develop/public/assets/images/Screenshot1.png)
+   # screenshot Image 1
+   * ![workout_tracker_17](./public/assets/images/page1.png)
 
    ## Usage Instructions
 
@@ -91,7 +81,7 @@
 
    * [destish21/workout_tracker_17](https://github.com/destish21/workout_tracker_17)
 
-   * Install all necessary  node_moduales like bcryptjs,express,express-session, mysql2, passport, passport-local, and sequelize.
+   * Install all necessary  node_moduales like express, morgan, mongoose.
 
    * Make sure node_modules run by `npm i or npm install`
      in your computer.
@@ -99,28 +89,30 @@
    * Once in the directory run npm install to install the node_modules needed to run the app.
     Run by  `node server.js or by nodemon server.js` in your computer command line.
 
-   * You can SinUp to the form and login on the application.
+   * You can add new or continue the form exercise on the application.
 
-   * A `Reverse Engineering Code
-     App !!`will be desplayed after you SinUp and login as members !. 
+   * A `workout_tracker_17
+     App !!`will be desplayed after you run the server.js !. 
 
-   * you can manage you members easly.
+   * you can manage your create and track daily workouts easly.
 
-   * It built with diferent package to connect to my MySQL database and perform requeries `db` file and return all files.
+   * It built with diferent package to connect to my mongoose database and perform requeries `seeds.js` file and return all files.
 
-   * InquirerJs package to interact with the user via the command-line.
-
-   * you can to be able to SinUp, login and save databases.
+   * models, routes to interact with the user the command-line.
 
    * you can to be able to delete and Update  you've members.
 
    * you can  quickly access to emails and GitHub profiles.
 
-   * My `my Reverse Engineering Code`
+   * My `workout_tracker_17`
     is in my github repository enjoy it!
+   * Screenshot Images 2
  
-   * ![workout_tracker_17](./Develop/public/assets/images/Screenshot2.png)
-    
+   * ![workout_tracker_17](./public/assets/images/Cardio.png)
+   * ![workout_tracker_17](./public/assets/images/Resis.png)
+   * ![workout_tracker_17](./public/assets/images/TotalRE.png)
+   * ![workout_tracker_17](./public/assets/images/db.png)
+ 
    ## Contribution
 
    * This is Contributed by [destish21/workout_tracker_17](https://github.com/destish21/workout_tracker_17). 
@@ -137,4 +129,4 @@
 
    * Email: destish21@yahoo.com
    
-   # Desta Mulualem. All Rights Reserved © 02/18/2021.
+   # Desta Mulualem. All Rights Reserved © 02/16/2021.
