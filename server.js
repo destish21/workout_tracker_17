@@ -12,10 +12,13 @@ app.use(express.json());
 
 app.use(express.static('public'));
 const db = require("./models");
-const MONGODB_URL = process.env.MONGODB_URL || 'mongodb://localhost/workout';
-mongoose.connect(MONGODB_URL, 
+
+// const MONGODB_URL = process.env.MONGODB_URL || 'mongodb://localhost/workout';
+mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/workout', 
     {
     useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
     useFindAndModify: false
 });
 
