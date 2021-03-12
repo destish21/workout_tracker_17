@@ -49,4 +49,13 @@ module.exports = (app)=>{
             res.json(err)
         })
     });
+    // function updateworkouts(exercises){
+    //     db.Workout.findByIdAndUpdate(workoutId, {exercises: exercises}, function(err, doc){
+    //     if(err){
+    //         console.log(err)
+    //     }
+
+    //     })
+    // }
+        
 }
