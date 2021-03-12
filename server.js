@@ -12,13 +12,14 @@ app.use(express.json());
 
 app.use(express.static('public'));
 
-const MONGODB_URL = process.env.MONGODB_URL || 'mongodb://localhost/workout';
-mongoose.connect(MONGODB_URL, {
+var MONGODB_URL = process.env.MONGODB_URL || 'mongodb://localhost/workout';
+mongoose.connect(MONGODB_URL, 
+    {
     useNewUrlParser: true,
     useFindAndModify: false
 });
 
-require('./routes/appiRoutes')(app);
+require('./routes/apiRoutes')(app);
 require('./routes/htmlRoutes')(app);
 
 app.listen(PORT, () => {
