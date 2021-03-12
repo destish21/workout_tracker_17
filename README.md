@@ -44,7 +44,6 @@
    * you can search the combined weight of multiple exercises from the past seven workouts on the `stats` page
 
    * View the total duration of each workout from the past seven workouts on the `stats` page.
-.
 
    #  Runing a command-line application 
 
@@ -110,8 +109,8 @@
  
    * ![workout_tracker_17](./public/assets/images/Cardio.png)
    * ![workout_tracker_17](./public/assets/images/Resis.png)
-   * ![workout_tracker_17](./public/assets/images/TotalRE.png)
-   * ![workout_tracker_17](./public/assets/images/db.png)
+   * ![workout_tracker_17](./public/assets/images/TotalRe.png)
+   * ![workout_tracker_17](./public/assets/images/pieChart.png)
  
    ## Contribution
 
