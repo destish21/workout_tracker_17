@@ -122,7 +122,7 @@
 
    ## Developers Contact Information
    * LinkdIn Profile : [Desta Mulualem](https://www.linkedin.com/in/desta-mulualem-6718b1203/)
-   * Deployed URL : N/A
+   * Deployed URL : https://shielded-shelf-32157.herokuapp.com/
    * github URL :  https://github.com/destish21/workout_tracker_17
    * MyGoogleDocLink: https://docs.google.com/document/d/12iqx2v9VJpYzte3qu6_S-YBiPkwCYKAXQQhI4bl02zM/edit?usp=sharing
 
