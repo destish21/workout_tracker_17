@@ -40,15 +40,15 @@ const workoutSchema = new Schema(
   },
   {
     toJSON: {
-      // include any virtual properties when data is requested
+      //  when data is requested any virtual
       virtuals: true
     }
   }
 );
 
-// adds a dynamically-created property to schema
-workoutSchema.virtual("totalDuration").get(function () {
-  // "reduce" array of exercises down to just the sum of their durations
+// adds a dynamically to schema
+  workoutSchema.virtual("totalDuration").get(function () {
+  //   exercises reduce down to duration
   return this.exercises.reduce((total, exercise) => {
     return total + exercise.duration;
   }, 0);
