@@ -32,9 +32,10 @@
    * I created models and routes to connect with back end codes.
 
    * That is a given dependence
+   * package.js
 
    * npm install 
-
+   
    * Acceptance Criteria.
 
    * users can quickly and easily loads the page, you will be get the option to create a new workout or continue with the last workout.
@@ -124,8 +125,6 @@
    * LinkdIn Profile : [Desta Mulualem](https://www.linkedin.com/in/desta-mulualem-6718b1203/)
    * Deployed URL : https://shielded-shelf-32157.herokuapp.com/
    * github URL :  https://github.com/destish21/workout_tracker_17
-   * MyGoogleDocLink: https://docs.google.com/document/d/12iqx2v9VJpYzte3qu6_S-YBiPkwCYKAXQQhI4bl02zM/edit?usp=sharing
-
    * Email: destish21@yahoo.com
    
    # Desta Mulualem. All Rights Reserved © 02/16/2021.
