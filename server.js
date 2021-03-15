@@ -15,17 +15,17 @@ app.use(express.static('public'));
 const db = require("./models");
 
 const uri = process.env.MONGODB_URI;
-mongoose.connect(uri, 
+mongoose.connect(uri,
     {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false
-}).then(()=> console.log('mongodb connected'))
-.catch(error => console.log('mongodb connection', error));
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        useCreateIndex: true,
+        useFindAndModify: false
+    }).then(() => console.log('mongodb connected'))
+    .catch(error => console.log('mongodb connection', error));
 
- require('./routes/apiRoutes')(app);
- require('./routes/htmlRoutes')(app);
+require('./routes/apiRoutes')(app);
+require('./routes/htmlRoutes')(app);
 
 app.listen(PORT, () => {
     console.log(`APP listen on port ${PORT}`);
