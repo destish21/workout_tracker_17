@@ -1,9 +1,10 @@
 const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
+require('dotenv').config();
 
 const app = express();
-const PORT = process.env.PORT || 6027;
+const PORT = process.env.PORT;
 
 app.use(morgan('dev'));
 
@@ -13,14 +14,15 @@ app.use(express.json());
 app.use(express.static('public'));
 const db = require("./models");
 
-// const MONGODB_URL = process.env.MONGODB_URL || 'mongodb://localhost/workout';
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workout', 
+const uri = process.env.MONGODB_URI;
+mongoose.connect(uri, 
     {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
     useFindAndModify: false
-});
+}).then(()=> console.log('mongodb connected'))
+.catch(error => console.log('mongodb connection', error));
 
  require('./routes/apiRoutes')(app);
  require('./routes/htmlRoutes')(app);
